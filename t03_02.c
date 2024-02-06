@@ -1,6 +1,7 @@
 // 12S23036 - Jopel Simarmata
 
 #include <stdio.h>
+#include <stdlib.h> // Add this line to include the necessary library
 
 int main(int _argc, char **_argv)
 {
