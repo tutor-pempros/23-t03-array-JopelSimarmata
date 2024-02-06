@@ -5,6 +5,7 @@
 int main(int _argc, char **_argv)
 {
  int x,i,j;
+ float a = 0;
  float k = 0;
  scanf("%d", &x);
  int angka[x];
@@ -23,9 +24,10 @@ int main(int _argc, char **_argv)
     }
   }
   for (int i = 0; i < x; i++){
+    a += 1;
     k += angka[i];
   }
-  rata_rata = k/x;
+  rata_rata = k/a;
   printf("%d\n", angka[0]);
   printf("%d\n", angka[x-1]);
   printf("%.2f", rata_rata);
